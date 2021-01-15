@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .btn{
+            background-color: brown;
+            border: none;
+            border-radius: 10px;
+            margin-left: 5px;
+            box-shadow: 2px 3px 4px blue;
+            padding: 3px;
+            margin-top: 5px;
+        }
+        .btn:hover{
+            background-color: black;
+            color: #fff;
+            transition: 2s;
+           transform: translateX(3px);
+        }
+       .li{
+           text-align: center;
+           border-bottom: 1px solid gray;
+           
+       }
+       h1{
+           text-shadow: 0 0 10px rgb(124, 6, 98);
+       }
+       button{
+           background-color: brown;
+           font-weight: bold;
+           border: none;
+           border-radius: 5px;
+           padding: 5px;
+       }
+       button:hover{
+        background-color: black;
+            color: #fff;
+            transition: 2s;
+           transform: translateX(3px);
+           box-shadow: 2px 3px 4px blue;
+       }
+    </style>
+</head>
+<body>
+    <h1>My ToDo App : Mr.Waqar Khan</h1>
+
+    <div>
+        <input type="text" name="" id="todo_item">
+        <button onclick="addTodo()">ADD ITEM</button>
+        <button onclick="deleteALL()">DELETE ALL</button>
+    </div>
+<div>
+    <ul id="list">
+
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
